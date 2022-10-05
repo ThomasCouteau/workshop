@@ -10,6 +10,7 @@
 
       <q-card-section class="q-pt-none">
         {{ description }}
+        <q-btn class="justify-end" color="secondary" label="Plus d'infos" />
       </q-card-section>
     </q-card>
   </div>

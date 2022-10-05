@@ -12,25 +12,25 @@ import CardBee from "components/CardBee.vue";
 const beeCards = [
   {
     num: 1,
-    author: "home",
-    description: "",
+    author: "Apiculteur",
+    description: "Ruche située dans le sud de la France.",
     img: "https://fr.jardins-animes.com/images/extraimages/ruche-abeille-inoffensive-jardin.jpg",
   },
   {
     num: 2,
-    author: "home",
-    description: "",
+    author: "Apiculteur",
+    description: "Ruche située dans les Hauts de France",
     img: "https://ruches-et-ruchettes-de-france.com/2-large_default/ruche-dadant-10c-plancher-bois-hausse-toit-chalet.jpg",
   },
   {
     num: 3,
-    author: "home",
-    description: "",
+    author: "Métropole de Lille",
+    description: "Ruche située près d'un parc de Lille",
     img: "https://monjardinmamaison.maison-travaux.fr/wp-content/uploads/sites/8/2020/06/gettyimages-665690923-614x410.jpg",
   },
   {
     num: 4,
-    author: "home",
+    author: "Commune de Bailleul",
     description: "",
     img: "https://www.rucherecole.fr/img/cms/ruches/Dadant/trou-de-vol-rond-ruche-Dadant.jpg",
   },
