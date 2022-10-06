@@ -11,6 +11,18 @@ const routes = [
         path: "user",
         component: () => import("src/pages/UserPage.vue"),
       },
+      {
+        path: "first-card",
+        component: () => import("src/pages/CardInfo/CardOnePage.vue"),
+      },
+      {
+        path: "second-card",
+        component: () => import("src/pages/CardInfo/CardTwoPage.vue"),
+      },
+      {
+        path: "third-card",
+        component: () => import("src/pages/CardInfo/CardThreePage.vue"),
+      },
     ],
   },
 

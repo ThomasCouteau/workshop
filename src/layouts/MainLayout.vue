@@ -2,12 +2,9 @@
   <q-layout view="lHh Lpr lFf">
     <q-header elevated style="background: #ffc845">
       <q-toolbar>
-        <q-btn
-          flat
-          dense
-          round
-          icon="menu"
-          aria-label="Menu"
+        <q-img
+          src="src/assets/bee.png"
+          width="50px"
           @click="toggleLeftDrawer"
         />
 
