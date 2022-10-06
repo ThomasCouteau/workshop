@@ -21,20 +21,29 @@ const columns = [
     sortable: true,
   },
   { name: "thymol", label: "Thymol (mg/L)", field: "thymol", sortable: true },
+  {
+    name: "temperature",
+    label: "Température (°C)",
+    field: "temperature",
+    sortable: true,
+  },
 ];
 
 const rows = [
   {
     name: "3e mesure",
     thymol: 13,
+    temperature: 23,
   },
   {
     name: "2e mesure",
     thymol: 11,
+    temperature: 21,
   },
   {
     name: "1er mesure",
     thymol: 5,
+    temperature: 19.5,
   },
 ];
 
